@@ -1,0 +1,112 @@
+a img {
+  border: none;
+}
+
+div#title a, div#menu a, div#menu a:link, div#menu a:visited {
+  text-decoration: none;
+}
+div#menu a:hover, div#title a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+p {
+  margin-bottom: 0.2em;
+  line-height: 1.2em;
+  font-size: 1em;
+}
+
+p.indent {
+    margin-left: 20px;
+}
+
+h1 {
+  font-size: x-large;
+  padding-top: 0.3em;
+}
+
+h2 {
+  font-size: large;
+  padding-top: 0.3em;
+}
+
+h3 {
+  font-size: medium;
+  font-weight: bold;
+  padding-top: 0.3em;
+}
+
+h4 {
+  font-size: medium;
+  font-style: italic;
+}
+
+
+a, a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+a:active, a:focus {
+  color: black;
+}
+
+a:hover, button:hover {
+  cursor:pointer; 
+}
+
+div.map {
+    float: left;
+    margin: 0px 5px 5px 0px;
+}
+
+div.caption {
+  font-size: 0.8em;
+}
+
+.noSelect{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+}
+
+.border {
+    border-style:solid;
+    border-width:1px;
+}
+
+div.spectro{
+    position:absolute;
+    z-index:20000;
+    top: 0px;
+    left: 0px;
+    display: none;
+    border: 1px solid;
+}
+
+div#recorder{  /* for the div defined in recorder.html */
+    position:fixed;
+    #left: 50px;
+    #top: 50px;
+    padding: 2px;
+    border: 1px solid;
+    background-color:white;
+    display:none;  /* don't show the recorder unless we can use it */
+}
+
+.ipa{
+    font-family:serif;
+    font-size:1em;
+}
+
+canvas { 
+    display: inline-block; 
+    background: #202020; 
+ #   width: 95%;
+ #   height: 45%;
+}

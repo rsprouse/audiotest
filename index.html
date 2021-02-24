@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta name="description" content="audio recorder">
+  <meta name="author" content="Keith Johnson">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="styles/layout.css" />
+  <link rel="stylesheet" type="text/css" href="styles/basic.css" />
+
+  <script src="js/jquery-1.12.4.min.js"> </script> 
+  <script src="js/ajaxuploader.js"> </script>
+  <script src="js/microphone.js"> </script>
+  <script src="js/recorder.js"> </script>
+
+  <title>Audio Recorder</title>
+</head>
+
+<body>
+<div id="content">
+    <h1>Audio Recorder</h1>
+
+    <p>This is a demonstration of using HTML 5 to record audio to a folder on a server.  <br \>The audio you record here is saved at: <a href="wav/" target="_blank">wav/</a></p>
+
+<p>    Click the green "record" button, then say<br \> <br \>
+    <div id="message">"This is a <span id="word"></span> again."</div> <br \>
+    then, click the red "stop" button. 
+    <input type="submit" onclick="next_stim()" value="Go to next"></input>
+    <br />
+    <div id="recorder"></div>
+</p>
+
+</div>
+</body>
+</html>

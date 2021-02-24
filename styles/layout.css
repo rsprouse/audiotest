@@ -1,0 +1,52 @@
+html, body, #container {
+    min-height: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+html>body, html>body #container {
+    height: auto;
+}
+body {
+    font-family: Century Gothic, Calibri, Didot, Times;
+    font-size:14px;
+    color: #000;
+    background-color:#fff; 
+}
+#container{
+    position:absolute; top: 0; left: 0;
+    min-width: 1000px; 
+}
+
+#wrapper{
+    float:right;
+    margin: 0px;
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+}
+#content{
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 10px;
+}
+#menu{
+    float:left;
+    width:120px;
+    position: relative;
+    padding: 10px;
+    margin-left: 16px;
+    margin-top: 10px;
+    font-size: 1.7em;
+    min-height: 100%;
+}
+
+#left_col {
+    float:left;
+    width:400px;
+}
+#right_col{
+    float:right;
+    width:400px;
+}
